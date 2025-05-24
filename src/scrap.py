@@ -11,12 +11,6 @@ Le script :
     - S'arrête soit lorsqu'il atteint le nombre maximal d'avis demandé (2000), soit lorsqu'il n'y a plus de page
     - Enregistre le tout dans un fichier CSV local
 
-Librairies utilisées :
-    - requests : pour envoyer des requêtes HTTP au site AlloCiné
-    - BeautifulSoup : pour parser et naviguer dans le HTML de la page
-    - pandas : pour structurer les données et les exporter proprement
-    - time et random : pour ajouter un délai aléatoire entre les pages (évite blocage ou bannissement)
-
 Note : Ce script est à usage éducatif uniquement. Le scraping d'AlloCiné est soumis à leurs Conditions Générales d'Utilisation.
 """
 
